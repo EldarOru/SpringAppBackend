@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("p").click(function(){
+        makeAlert();
         $(this).hide();
     });
 
@@ -25,3 +26,7 @@ const map = new ol.Map({
         zoom: 4
     })
 });
+
+function makeAlert() {
+    alert("HELLO BRO")
+}
